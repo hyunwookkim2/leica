@@ -1,0 +1,229 @@
+div.content{
+   padding: 0;
+}
+div.content section{
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    
+}
+div.content header h3{
+    font-size: 18px;
+    line-height: 20px;
+}
+div.menuWrap menu ul li{
+    margin-left: 20px;
+    
+  
+}
+div.menuWrap menu ul button{
+    display: none;
+}
+main{
+   display: none;
+}
+main figure{
+    padding: 40px 0;
+    height:200px;
+    background-image: url(../img/index_mn-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.ct1{
+    position: relative;
+}
+div.ct1 .backImg{
+    width: 100%;
+    background-color: #000;
+}
+div.ct1 section{
+    position: absolute;
+    left: 0;
+    
+}
+div.ct1 section .viewImg{
+   
+    width: 100%;
+   height: 400px;
+    
+    margin-bottom: 0;
+    
+}
+div.ct1 section .texts{
+    display: none;
+}
+div.ct1 h3{
+    display: block;
+    color: #fff;
+    font-size: 18px; font-size: bold;
+    position: absolute;
+    bottom: 60px;
+    z-index: 10;
+}
+div.ct1 .backImg button{
+    display: flex;
+    color: #f00;
+        position: absolute;
+    bottom: 30px; font-size: 20px;
+}
+div.ct2 section{
+    margin-top: 40px;
+}
+div.ct2 section header,
+div.ct2 section button{
+    display: none;
+}
+
+div.ct3{
+    display: none;
+}
+
+div.ct4{
+    padding-top: 80px;
+    height: 520px;
+}
+div.ct5 section,
+div.ct4 section{
+    margin-top: 20px;
+    
+    
+}
+div.ct4 section .art1{
+    position: relative;
+}
+div.ct4 section .art1 .texts{
+    display: block;
+    position: absolute;
+    top: 0px; left: 0;
+    color: #fff;
+     width: calc(60% - 20px);
+    padding-top: 20px;
+    margin-left: 0;
+}
+div.ct4 section .art1 .texts h2{
+    font-size: 24px; line-height: 30px;
+}
+div.ct4 section .art1 .texts h4{
+    color: #fff; font-size: 14px;
+    margin-top: 0;
+}
+div.ct4 section .art1 .texts p{
+    font-size: 16px;
+    margin-top: 0;
+}
+div.ct4 section .art1 .texts nav{
+    margin-top: 10px;
+}
+div.ct4 section .art1 .image{
+    width: 100%;
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat; 
+    height: 270px;
+}
+div.ct4 section .art{
+    display: none;
+}
+
+
+
+
+div.ct5 section{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 190px;
+}
+
+
+
+
+
+
+
+
+div.ct6{
+    margin-top: 40px;
+}
+div.ct6 section{
+    margin-top: 20px;
+}
+div.ct6 section .image{
+    width: calc(33.33% - 10px);
+    height: 130px;
+}
+
+
+
+div.ct7{
+    margin-top: 40px;
+}
+div.ct7 section p{
+    line-height: 40px;
+}
+div.ct7 section h4{
+    font-size: 14px;
+}
+div.ftrWrap .info{
+    direction: rtl;
+    justify-content: space-around;
+}
+div.ftrWrap .info .p1{
+    display: none;
+}
+div.ftrWrap .info .p2{
+    line-height: 40px;
+    direction: ltr;
+}
+
+
+
+
+
+
+
+/*
+
+body{
+    position: relative;
+}
+#nav:checked+.navv{
+    height: 160px;
+}
+div.navv{
+    position: absolute;
+    top: 120px;
+    right: 0;
+    z-index: 99999;
+    width: 25%;
+}
+div.hdrWrap header nav label{
+width: 40px; height: 40px;
+    display: block;
+    text-align: center; line-height: 40px;
+}
+div.navv h2{
+    color: #fff;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+   
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

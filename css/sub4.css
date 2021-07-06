@@ -1,0 +1,189 @@
+body{
+    background-color: #000;
+}
+div.ct1{
+    height: 880px;
+}
+div.ct1 header{
+    
+}
+div.ct1 header h3{color: #fff;}
+div.ct1 header h4{color: #fff; line-height: 80px;}
+div.ct1 section{
+  direction: rtl;
+     position: relative;
+    margin-top: 0;
+}
+div.ct1 section article{
+   
+}
+div.ct1 section article .image{
+   width: 50%; margin-right: auto;
+}
+div.ct1 section article .image .ovgrid{
+    width: calc((100vw - 1080px) / 2 + 100%);
+    height: 520px;
+    background-image: url(../img/sub4-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.ct1 section .art2{
+    width: 50%;
+    position: absolute;
+    top: 100px;
+}
+div.ct1 section .art2 .texts{
+    color: #fff; height: 520px;
+    direction: ltr;
+    margin-left: -70px;
+}
+div.ct1 section .art2 .texts h4{
+    color: #fff; font-size: 48px; line-height: 60px;
+}
+div.ct1 section .art2 .texts h5{
+    color: #fff; font-size: 18px; line-height: 60px;
+    margin: 20px 0;
+}
+div.ct1 section article .texts p{
+    font-size: 18px; line-height: 40px;
+}
+
+div.ct2{}
+div.ct2 header{}
+div.ct2 header h3{color: #fff;}
+div.ct2 section{
+  display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+    align-items: center;
+}
+
+div.ct2 section article{
+    color: #fff; 
+    
+}
+div.ct2 section article .image{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+div.ct2 section article .texts{
+    text-align: right;
+}
+div.ct2 section article .texts h4{font-size: 16px; line-height: 30px; color: #fff;}
+div.ct2 section article .texts h5{font-size: 14px; line-height: 30px; color: #fff; font-weight: 300;
+margin: 40px 0;}
+div.ct2 section article .texts p{
+    font-weight: bold;
+}
+div.ct2 section .first{
+    width: calc(100% - 20px);
+    display: flex;
+    flex-wrap: wrap; align-items: center;
+    justify-content: space-around;
+    
+}
+div.ct2 section .first .image{
+    width: 66.66%;
+    height: 520px;
+}
+div.ct2 section .first .texts{
+    width: 33.33%;
+    text-align: left;
+    padding: 20px;
+}
+
+div.ct2 section .art{
+    width: calc(50% - 20px);
+    margin-top: 40px;
+    
+}
+div.ct2 section .art .image{
+    width: 100%;
+    height: 280px; 
+}
+div.ct2 section .art .texts{
+   line-height: 30px;
+    text-align:left;
+    margin-top: 10px;
+    
+}
+
+
+
+div.ct2 section .wide{
+    width: calc(100% - 20px);
+    margin-top: 40px;
+}
+div.ct2 section .wide .image{
+    width: 100%;
+    height: 520px;
+}
+div.ct2 section .wide .texts{
+    line-height: 30px; margin-top: 10px;
+}
+
+
+
+div.ct2 section .mt120{
+    margin-top: 120px;
+}
+
+
+div.ct2 section article .i1{background-image: url(../img/sub4-2.jpg);}
+div.ct2 section article .i2{
+    background-image: url(../img/sub4-3.jpg);
+}
+div.ct2 section article .i3{
+    background-image: url(../img/sub4-4.jpg);
+}
+div.ct2 section article .i4{
+    background-image: url(../img/sub4-5.jpg);
+}
+div.ct2 section article .i5{
+    background-image: url(../img/sub4-6.png);
+}
+div.ct2 section article .i6{
+    background-image: url(../img/sub4-7.png);
+}
+div.ct2 section article .i7{
+    background-image: url(../img/sub4-10.jpg);
+    background-position: center;
+}
+div.ct2 section article .i8{
+    background-image: url(../img/sub4-8.png);
+}
+div.ct2 section article .i9{
+    background-image: url(../img/sub4-9.jpg);
+}
+
+
+div.ftrWrap{
+    border-top: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

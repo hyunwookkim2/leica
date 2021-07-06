@@ -1,0 +1,149 @@
+div.content section{
+    width: 90%;
+    max-width: 780px;
+}
+
+div.hdrWrap{}
+div.hdrWrap header{
+    justify-content: space-between;
+}
+div.hdrWrap header h2{
+   display: none;
+}
+div.hdrWrap header nav{
+  
+   display: flex;
+   margin-top: 20px;
+}
+div.hdrWrap header nav i{
+}
+div.hdrWrap header nav .fa-bars{
+    display: block;
+}
+
+div.hdrWrap header nav .fr label{
+    width: 30px; 
+    display: block;
+    text-align: center; line-height: 40px;
+    margin-left: 20px;
+}
+
+#nav{display: none;}
+
+#nav+.navv{
+    background-color: #000;
+    overflow: hidden;
+    
+    padding: 0; width: 0;
+    
+    
+}
+body{
+    position: relative;
+}
+#nav:checked+.navv{
+    height: 160px; width: 25%;
+    transition: all 0.3s;
+}
+div.navv{
+    position: absolute;
+    top: 120px;
+    right: 0;
+    z-index: 99999;
+    width: 25%;
+}
+div.hdrWrap header nav label{
+width: 40px; height: 40px;
+    
+    text-align: center; line-height: 40px;
+}
+div.navv h2{
+    color: #fff;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+   
+}
+
+
+
+main{
+    position: relative;
+}
+
+main figure{
+    height: 720px;
+    background-image: url(../img/index_mn-1.jpg);
+  background-position: right;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+main .texts{
+  position: absolute;
+   right: 0; bottom: 0;
+}
+main section{
+    display: none;
+}
+div.ct1{
+    position: relative;
+}
+div.ct1 .backImg{
+  
+}
+div.ct1 section{
+   position: absolute;
+    left: 140px;
+  
+}
+div.ct1 section .viewImg{
+    
+ 
+}
+div.ct4{
+    
+}
+div.ct4 section{
+    width: 100%;
+    
+}
+div.ct4 section .art1 .texts nav{
+   
+}
+div.ct4 .art{
+    width: 25%;
+}
+div.ct4 section .art .texts{
+    position: absolute;
+    left: -40px;
+    
+}
+div.ct5 section .texts{
+    display: none;
+}
+div.ct6 section .image{
+    height: 250px;
+}
+
+div.ct7 section{
+    margin-left: 20px;
+}
+div.ftrWrap footer{
+    justify-content: space-around;
+}
+div.ftrWrap footer,
+div.ftrWrap hr{
+   display: none;
+}
+div.ftrWrap .info{
+    width: 100%;
+}
+div.ftrWrap .info .p1{
+   
+}
+div.ftrWrap .info .p2{
+    line-height: 20px;
+}
+
+div.navv{display: block;}

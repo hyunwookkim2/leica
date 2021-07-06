@@ -1,0 +1,606 @@
+div.menuWrap{
+    background-color: #000;
+    color: #fff;
+}
+div.menuWrap menu{}
+div.menuWrap menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+div.menuWrap menu ul li{
+    margin-left: 40px;
+    line-height: 40px;
+}
+div.menuWrap menu button{
+    color: #fff;
+    border-radius: 0;
+    background-color: #f00;
+    margin-left: 40px;
+}
+
+
+div.hdrWrap{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    border-top: 1px solid #777;
+}
+div.hdrWrap header{
+    display: flex;
+    justify-content: space-around;
+}
+div.hdrWrap header .logo{
+    width: 60px; height: 60px;
+    background-image: url(../img/Leica-Logo.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+div.hdrWrap header h2{
+    line-height: 60px;
+}
+div.hdrWrap header h2:hover{
+    color: #f00;
+}
+div.hdrWrap header nav{
+    line-height: 60px;
+    font-size: 24px;
+}
+div.hdrWrap header .fa-bars{
+    display: none;
+}
+
+main{
+    position: relative;
+}
+
+main figure{
+    width: 100%;
+    height: 720px;
+    background-image: url(../img/index_mn-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+main  .texts{
+    position: absolute;
+    left: 430px; top: 480px;
+}
+main .texts p{
+    font-size: 24px;
+    color: #fff;
+    line-height: 30px;
+}
+main .texts button{
+    border-radius: 0;
+    background-color: transparent;
+    width: 0; height: 0;
+    color: #f00;
+    font-size: 24px;
+}
+main section{
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+main section h4{
+    color: #000;
+    font-weight: bold;
+  width: 200px;
+    height: 80px;
+    text-align: center; 
+    padding-top: 20px;
+      border-bottom: 1px solid #777;
+   
+}
+main section h4:nth-of-type(2){
+    border-left: 1px solid #777;
+    border-right: 1px solid #777;
+    
+}
+
+main section h4:hover{
+    background-color: skyblue;
+}
+
+div.ct1{
+    /*width: calc((100vw - 1080px) / 2 + 530px);*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+div.ct1 .backImg{
+    background-color: #000;
+    width: calc((100vw - 1080px) / 2 + 530px);
+    height: 440px;
+}
+
+
+div.ct1 section{
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    position: absolute;
+    left: 640px;
+   
+}
+div.ct1 section .viewImg{
+     background-image: url(../img/19056.jpg.png);
+    width: calc(50% - 10px);
+    height: 430px; background-position: center;
+    background-size: cover;
+    margin-bottom: 100px;
+   
+    
+    
+}
+div.ct1 section .texts{
+    color: #000;
+}
+div.ct1 section .texts h2{
+    font-size: 36px; font-weight: 700;
+    line-height: 40px;
+}
+div.ct1 section .texts h2 span{
+    color: #f00;
+}
+div.ct1 section .texts h4{
+    font-size: 18px; font-weight: 300;
+    line-height: 30px; margin-top: 40px;
+}
+div.ct1 section .texts button{
+    color: #f00; font-size: 36px; line-height: 80px;
+    background-color: transparent; cursor: pointer;
+}
+
+div.ct2{
+    overflow-x: hidden;
+}
+div.ct2 header{}
+div.ct2 header h3{
+    line-height: 60px;
+}
+div.ct2 section{
+    display: flex;
+    align-items: center;
+}
+div.ct2 section button{
+    font-size: 36px;
+    background-color: transparent;
+    margin-left: 40px;
+}
+div.ct2 section .artGroup{
+    width: calc((100vw - 1080px) / 2 + 710px);
+    display: flex;
+    justify-content: space-between;
+}
+div.ct2 section .artGroup article{
+    margin: 0 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    box-shadow: 10px, 5px, 10px, rgba(0,0,0,0.7);
+}
+div.ct2 section .artGroup  article .img{
+     width: 250px; height: 240px;
+}
+div.ct2 section .artGroup  article .img h2{
+    line-height: 40px;
+    margin-left: 10px;
+}
+div.ct2 section .artGroup article .i1{
+    background-image: url(../img/ix_cnt2_1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.ct2 section .artGroup article .i2{
+    background-image: url(../img/ix_cnt2_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.ct2 section .artGroup article .i3{
+    background-image: url(../img/ix_cnt2_3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.ct2 section .artGroup article .i4{
+    background-image: url(../img/ix_cnt2_4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.ct2 section .artGroup article .i5{
+    background-image: url(../img/ix_cnt2_5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+div.ct3{}
+div.ct3 header{
+    
+}
+div.ct3 header h3{
+    
+}
+div.ct3 section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.ct3 section article{
+    position: relative;
+}
+div.ct3 section .art1{
+    width: calc(40% - 20px);
+    height: 280px;
+    background-image: url(../img/ix_cnt3_1.jpg);
+    background-position: center; background-size: cover;
+}
+div.ct3 section .art2{
+    width: calc(60% - 20px);
+    height: 280px;
+     background-image: url(../img/ix_cnt3_2.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.ct3 section .art3{
+    width: calc(66.66% - 20px);
+    height: 240px;
+     background-image: url(../img/ix_cnt3_3.jpg);
+    background-position: center; background-size: cover;
+}
+div.ct3 section .art4{
+    width: calc(33.33% - 20px);
+    height: 240px;
+     background-image: url(../img/ix_cnt3_4.png);
+    background-position: center; background-size: cover;
+}
+
+div.ct3 button{
+    font-size: 24px; color: #ccc;
+    position: absolute; 
+    bottom: 0; right: 0;
+}
+div.ct3 .mt40{
+    margin-top: 40px;
+}
+
+
+div.ct4{}
+div.ct4 header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+div.ct4 header h3{}
+div.ct4 header h4{
+    color: #000; font-weight: 500;
+    font-size: 18px;
+}
+div.ct4 header h4 i{
+    color: #f00;
+}
+
+div.ct4 section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+div.ct4 section article{}
+div.ct4 section .art1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+div.ct4 section .art1 .texts{
+    color: #000;
+    width: calc(33.33% - 20px);
+    height: 400px;
+    padding-top: 40px;
+    margin-left: 20px;
+}
+div.ct4 section .art1 .texts h2{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 40px;
+}
+div.ct4 section .art1 .texts h4{
+    font-weight: 300;
+    margin-top: 40px;
+}
+div.ct4 section .art1 .texts p{
+    font-size: 18px;
+    font-weight: bold; margin-top: 40px;
+}
+div.ct4 section .art1 .texts nav{
+    color: #f00; margin-top: 40px;
+    font-size: 36px;
+}
+div.ct4 section .art1 .image{
+    width: calc(66.66% - 20px);
+    height: 400px;
+    background-image: url(../img/ix_cnt4_1.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+div.ct4 section .art{
+    width: calc(25% - 20px);
+    height: 200px;
+    margin-top: 40px;
+    position: relative;
+}
+
+div.ct4 section .art .texts{
+    line-height: 40px; 
+    padding-left: 50px; padding-top: 20px;
+    font-weight: bold;
+    color: #fff; 
+    position: absolute;
+    top: 0; bottom: 0;
+    margin: auto;
+   
+    
+}
+div.ct4 section .art .texts h3{
+    font-size: 18px; line-height: 20px;
+ 
+    
+}
+div.ct4 section .art .texts p{
+    font-size: 14px; line-height: 20px;
+    margin-top: 40px;
+    
+}
+
+div.ct4 section .art2{
+    background-image: url(../img/ix_cnt4_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.ct4 section .art3{
+    background-image: url(../img/ix_cnt4_3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.ct4 section .art4{
+    background-image: url(../img/ix_cnt4_4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.ct4 section .art5{
+    background-image: url(../img/ix_cnt4_5.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+div.ct4 .cover{
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    opacity: 40%;
+}
+
+div.ct4 .art .cover,
+div.ct4 .art .texts{
+    display: none;
+}
+div.ct4 .art:hover .cover{display: block;}
+div.ct4 .art:hover .texts{display: block;}
+
+
+
+
+div.ct5{
+    
+}
+div.ct5 header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+div.ct5 header h3{}
+div.ct5 header h4{
+    color: #000; font-weight: 500;
+    font-size: 18px;
+}
+div.ct5 header h4 i{
+    color: #f00;
+}
+div.ct5 section{
+    background-image: url(../img/ix_cnt5_1.jpg);
+    height: 440px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+div.ct5 section .texts{
+    color: #000;
+    position: absolute;
+    left: 775px; top: 120px;
+    margin: 0 auto;
+    
+}
+div.ct5 section .texts h3{
+    font-size: 36px; line-height: 40px;
+    font-weight: bold;
+}
+
+div.ct5 section .texts h4{
+    font-size: 24px; line-height: 30px;
+}
+div.ct5 section .texts nav{
+    font-size: 36px; color: #f00;
+    line-height: 40px; margin-top: 40px;
+}
+div.ct5 hr{
+    border: 1px solid #000;
+    width: 60px;
+    margin: 20px 0;
+}
+div.ct6{}
+div.ct6 header{
+    text-align: center;
+}
+div.ct6 header h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+div.ct6 header h4 span{
+    font-weight: 300;
+}
+div.ct6 section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+div.ct6 section article{
+    width: calc(33.33% - 20px);
+    height: 320px; background-color: #ccc;
+}
+div.ct6 section .image{}
+div.ct6 section .i1{
+    background-image: url(../img/ix_cnt6_1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.ct6 section .i2{
+    background-image: url(../img/ix_cnt6_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.ct6 section .i3{
+    background-image: url(../img/ix_cnt6_3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.ct6 section .i4{
+    background-image: url(../img/ix_cnt6_4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.ct6 section .i5{
+    background-image: url(../img/ix_cnt6_5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.ct6 section .i6{
+    background-image: url(../img/ix_cnt6_6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.ct6 section .i7{
+    background-image: url(../img/ix_cnt6_7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.ct6 section .i8{
+    background-image: url(../img/ix_cnt6_8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.ct6 section .i9{
+    background-image: url(../img/ix_cnt6_9.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.ct6 section .mt20{
+    margin-top: 20px;
+}
+
+div.ct7{
+    background-color: #f00;
+    padding: 20px 0;
+}
+div.ct7 section{
+    color: #fff;
+    margin-top: 0;
+}
+div.ct7 section p{}
+div.ct7 section h4{
+    color: #fff;
+}
+div.ct7 section h4 i{}
+
+div.ftrWrap{
+    background-color: #000;
+    padding: 60px 0;
+}
+div.ftrWrap footer{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+div.ftrWrap footer dl{
+    
+}
+div.ftrWrap footer dl dt{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 60px;
+}
+div.ftrWrap footer dl dd{
+    font-weight: 300;
+    color: #ccc;
+    line-height: 30px;
+}
+div.ftrWrap footer dl dl{
+    margin-top: 40px;
+}
+
+div.ftrWrap hr{
+    border: 1px solid #ccc;
+   margin: 40px 0;
+}
+div.ftrWrap .info{
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+div.ftrWrap .info p{
+    line-height: 20px;
+}
+div.ftrWrap .info .logo{
+   width: 40px; height: 40px;
+    background-image: url(../img/Leica_logo_Leica_Camera.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.ftrWrap .info .p2{
+    line-height: 40px;
+    color: #888;
+}
+div.ftrWrap .info span{
+    color: #888;
+}
+
+
+
+
+div.ct1 .backImg button,
+div.ct1 h3{
+    display: none;
+}
+
+
+
+
+
+
+
+

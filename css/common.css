@@ -1,0 +1,299 @@
+@import url(all.css);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500;700;900&family=Noto+Serif+KR:wght@300;500;700&display=swap');
+/* 인터넷이 연결되지 않은 상태 */
+@font-face{
+    font-family: 'Noto Sans KR';
+    font-weight: 100;
+    src: url(../fonts/NotoSansKR-Thin.otf);
+}
+
+@font-face{
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    src: url(../fonts/NotoSansKR-Light.otf);
+}
+@font-face{
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    src: url(../fonts/NotoSansKR-Medium.otf);
+}
+@font-face{
+    font-family: 'Noto Sans KR';
+    font-weight: 700;
+    src: url(../fonts/NotoSansKR-Bold.otf);
+}
+@font-face{
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+    src: url(../fonts/NotoSansKR-Black.otf);
+}
+
+@font-face{
+    font-family: 'Noto Serif KR';
+    font-weight: 300;
+    src: url(../fonts/NotoSerifKR-Light.otf);
+}
+@font-face{
+    font-family: 'Noto Serif KR';
+    font-weight: 500;
+    src: url(../fonts/NotoSerifKR-Medium.otf);
+}@font-face{
+    font-family: 'Noto Serif KR';
+    font-weight: 700;
+    src: url(../fonts/NotoSerifKR-Bold.otf);
+}
+
+body{
+    
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    font-size: 14px; line-height: 20px;
+    color: #555;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Noto Sans KR';
+}
+/* 헤더 */
+div.menuWrap{}
+div.menuWrap menu{
+    width: 90%; max-width: 1080px;
+    margin: 0 auto;
+}
+div.hdrWrap{}
+div.hdrWrap header{
+    width: 90%; max-width: 1080px;
+    margin: 0 auto;
+}
+div.hdrWrap header h1{
+    font-size: 16px; 
+    line-height: 40px;
+}
+div.hdrWrap header h2{
+    font-weight: 700; font-size: 14px; line-height: 40px;
+    
+}
+
+
+div.navWrap{}
+div.navWrap nav{
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.navWrap nav dl{
+    font-family: 'Noto Sans KR';
+}
+div.navWrap nav dl dt{
+    font-weight: 700; font-size: 14px; line-height: 40px;
+    text-transform: uppercase;
+}
+div.navWrap nav dl dd{
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+/* 콘텐츠 */
+div.content{
+    padding: 80px 0;
+    overflow-x: hidden;
+    
+}
+div.content header{
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    
+}
+div.content header h3{
+    font-weight: 700; font-size: 36px; line-height: 80px; color: #000;
+}
+div.content header p{
+    overflow: hidden;
+}
+div.content section{
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+div.content section h4{
+    font-weight: 700; font-size: 18px; line-height: 40px; color: #000;
+}
+div.content section h5{
+    font-weight: 700; font-size: 12px; line-height: 40px; color: #333;
+}
+div.content section p{
+    overflow: hidden;
+}
+div.content section nav{
+    font-size: 30px; color: #000; line-height: 40px;
+}
+
+
+
+/*배너 (콘텐츠에서 헤더가 없는 상태) */
+div.banner{
+    padding: 80px 0;
+}
+div.banner section{
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+
+/* footer */
+div.ftrWrap{}
+div.ftrWrap footer{
+    width: 90%; max-width: 1080px;
+    margin: 0 auto;
+}
+div.ftrWrap footer h1{
+    font-size: 18px; line-height: 40px;
+}
+div.ftrWrap footer p{
+    font-family: 'Noto Sans KR';
+}
+
+
+
+/*
+
+button{
+    width: 160px; height: 40px;
+    background-color: #F90;
+    border: 0; border-radius: 20px;
+    font-weight: 700; cursor: pointer;
+}
+*/
+button{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+
+
+div.menuWrap{
+    background-color: #000;
+    color: #fff;
+}
+div.menuWrap menu{}
+div.menuWrap menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+div.menuWrap menu ul li{
+    margin-left: 40px;
+    line-height: 40px;
+}
+div.menuWrap menu button{
+    color: #fff;
+    border-radius: 0;
+    background-color: #f00;
+    margin-left: 40px;
+}
+
+
+div.hdrWrap{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    border-top: 1px solid #777;
+}
+div.hdrWrap header{
+    display: flex;
+    justify-content: space-around;
+}
+div.hdrWrap header .logo{
+    width: 60px; height: 60px;
+    background-image: url(../img/Leica-Logo.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+div.hdrWrap header h2{
+    line-height: 60px;
+}
+div.hdrWrap header nav{
+    line-height: 60px;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+div.ftrWrap{
+    background-color: #000;
+    padding: 60px 0;
+}
+div.ftrWrap footer{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+div.ftrWrap footer dl{
+    
+}
+div.ftrWrap footer dl dt{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 60px;
+}
+div.ftrWrap footer dl dd{
+    font-weight: 300;
+    color: #ccc;
+    line-height: 30px;
+}
+div.ftrWrap footer dl dl{
+    margin-top: 40px;
+}
+
+div.ftrWrap hr{
+    border: 1px solid #ccc;
+   margin: 40px 0;
+}
+div.ftrWrap .info{
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+div.ftrWrap .info p{
+    line-height: 20px;
+}
+div.ftrWrap .info .logo{
+   width: 40px; height: 40px;
+    background-image: url(../img/Leica_logo_Leica_Camera.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.ftrWrap .info .p2{
+    line-height: 40px;
+    color: #888;
+}
+div.ftrWrap .info span{
+    color: #888;
+}
+div.hdrWrap header h2:hover{
+    color: #f00;
+}
+
+div.hdrWrap header .fa-bars{
+    display: none;
+}
+#nav,div.navv{display: none;}

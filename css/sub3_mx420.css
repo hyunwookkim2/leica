@@ -1,0 +1,119 @@
+div.menuWrap menu ul li{
+    margin-left: 20px;
+}
+div.menuWrap menu ul button{
+    display: none;
+}
+div.ftrWrap .info{
+    direction: rtl;
+    justify-content: space-around;
+}
+div.ftrWrap .info .p1{
+    display: none;
+}
+div.ftrWrap .info .p2{
+    line-height: 40px;
+    direction: ltr;
+}
+
+main section{
+    height: 430px;
+}   
+
+main section .texts{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+div.content section{
+     width: 90%;
+    max-width: 420px;
+    margin: 0 auto;
+}
+div.ct1 section{
+   display: block;
+    height: 480px;
+}
+div.ct1 section .mnImage{
+    width: 100%;
+}
+div.ct1 section .mnImage img{
+    width: 100%;
+    margin: 0;
+}
+div.ct1 section .imgGroup{
+    width: 100%;
+    margin: 20px 0 0;
+}
+
+div.ct1 section .texts{
+    margin-top: 40px;
+    width: 100%; 
+   margin: 0;
+    top: 260px;
+    
+}
+div.ct1 section .texts p{
+    text-align: center;
+    font-size: 18px;
+   
+    
+    
+}
+div.ct2 section .imgGroup{
+    overflow: hidden;
+    height: 240px;
+}
+div.ct2 section .image{
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+     height: 240px;
+}
+
+
+div.ct2 section .btns .btnl,
+div.ct2 section .btns .btnr{
+    top: -120px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+div.ct2 section .texts{
+     font-size: 18px;
+
+}
+div.ct3 section .texts{
+    color: #000;
+    width: calc(90% - 20px);
+}
+div.ct3 section .image{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 210px;
+}
+
+div.ct4 section .name h4{
+    font-size: 14px;line-height: 20px;
+}
+div.ct4 section{
+    width: 100%;
+    background-color: #fff;
+    position: static;   
+}
+div.ct4 section .name .gray,
+div.ct4 section .name .black{
+     width: 25px; height: 15px;
+    border-radius: 50%; 
+}
+div.ct4 section .info .btn button{
+    width: 130px;
+}
+div.navv{display: block;}

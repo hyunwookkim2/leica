@@ -1,0 +1,145 @@
+div.content section{
+    width: 100%;
+}
+
+div.hdrWrap{}
+div.hdrWrap header{
+    justify-content: space-between;
+}
+div.hdrWrap header h2{
+   display: none;
+}
+div.hdrWrap header nav{
+  
+   display: flex;
+   margin-top: 20px;
+}
+
+div.hdrWrap header nav .fa-bars{
+    display: block;
+}
+div.hdrWrap header nav .fr label{
+    width: 30px; height: 25px;
+    display: block;
+    text-align: center; line-height: 40px;
+    margin-left: 20px;
+}
+
+#nav{display: none;}
+
+#nav+.navv{
+    background-color: #000;
+    height: 0; overflow: hidden;
+    transition: all 0.3s;
+    padding: 0;
+    
+}
+body{
+    position: relative;
+}
+#nav:checked+.navv{
+    height: 160px;
+}
+div.navv{
+    position: absolute;
+    top: 120px;
+    right: 0;
+    z-index: 99999;
+    width: 25%;
+
+    
+   
+}
+div.hdrWrap header nav label{
+width: 40px; height: 40px;
+    display: block;
+    text-align: center; line-height: 40px;
+}
+div.navv h2{
+    color: #fff;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+   
+}
+
+
+div.ct1{
+}
+div.ct1 section{
+    justify-content: space-around;
+    align-items: stretch;
+}
+div.ct1 section h3{
+    width: calc(25% - 20px);
+}
+div.ct1 section .texts{width: calc(50% - 20px);}
+div.ct1 section .texts p{height: 130px;
+ }
+
+
+div.ct2{}
+div.ct2 section{width: 100%; height: 1600px;  }
+div.ct2 section article{
+    width: 100%; 
+    justify-content: space-around;
+    height: 440px; 
+  
+    
+}
+div.ct2 section article .imgGroup{
+    position: relative;
+    width: calc(50% - 20px);
+    height: 400px;
+}
+div.ct2 section article .texts{width: calc(50% - 20px);
+    text-align: right;
+}
+div.ct2 section article .texts h3{font-size: 36px;}
+div.ct2 section article .texts p{
+    margin-top: 20px;font-size: 24px;}
+div.ct2 section article .texts nav{font-size: 36px;}
+
+div.ct2 section .art1 .imgGroup .i1,
+div.ct2 section .art1 .imgGroup .i2{display: none;}
+div.ct2 section .art1 .imgGroup .i3{
+    width: 100%; height: 400px;
+    position: absolute; left: 0; top: 0; }
+
+
+div.ct2 section .art2{top: 440px;}
+div.ct2 section .art3{top: 960px;}
+
+
+div.ct2 section .art2 .texts{
+    text-align: left;
+}
+div.ct2 section .art2 .imgGroup .i4{ width: 100%; height: 400px; background-position: right;
+    position: absolute; left: 0; top: 0; }
+div.ct2 section .art2 .imgGroup .i5,
+div.ct2 section .art2 .imgGroup .i6{
+    display: none;
+}
+div.ct2 section .art3 .imgGroup .i7{ width: 100%; height: 400px; background-position: center;
+    position: absolute; left: 0; top: 0; }
+div.ct2 section .art3 .imgGroup .i8,
+div.ct2 section .art3 .imgGroup .i9{
+    display: none;
+}
+div.ftrWrap footer{
+    justify-content: space-around;
+}
+div.ftrWrap footer,
+div.ftrWrap hr{
+   display: none;
+}
+div.ftrWrap .info{
+    width: 100%;
+}
+div.ftrWrap .info .p1{
+   
+}
+div.ftrWrap .info .p2{
+    line-height: 20px;
+}
+div.navv{display: block;}

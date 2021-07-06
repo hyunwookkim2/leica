@@ -1,0 +1,134 @@
+div.content header h3{
+    font-size: 18px;
+    line-height: 20px;
+}
+div.menuWrap menu ul li{
+    margin-left: 20px;
+    
+  
+}
+div.menuWrap menu ul button{
+    display: none;
+}
+main .texts{}
+main .texts h4{
+ line-height: 80px;   
+}
+main .texts h3{
+    font-size: 36px;
+    line-height: 40px;
+}
+div.ct1 section{
+    
+    align-items: stretch;
+}
+
+div.ct1 section .texts p{
+    height: 200px;font-size: 14px;}
+
+div.ct2{
+    
+}
+div.ct2 section{
+   position: sticky;
+    height: 2000px;
+}
+
+div.ct2 section article{
+    height: 800px;
+   display: contents;
+    background-color: #f20;
+}
+div.ct2 section .art1{
+    background-color: #f90;
+    
+}
+div.ct2 section article .imgGroup{
+    text-align: center;
+    width: calc(100% - 20px);
+    margin-left: 10px;
+}
+div.ct2 section article .texts{
+    width: calc(100% - 20px);
+    display: flex;
+    align-items: baseline;
+    margin-left: 10px;
+    margin-top: 20px;
+    
+    flex-wrap: wrap;
+}
+div.ct2 section article .texts h3{
+    font-size: 20px; line-height: 30px;
+    text-align: left;
+    margin-left: 10px;
+    width: calc(50% - 10px);
+    height: 150px;
+}
+div.ct2 section article .texts p{
+    font-size: 14px; width: calc(50% - 10px);
+    text-align: left; line-height: 30px;
+}
+div.ct2 section article .texts nav{
+    font-size: 24px;
+    margin-top: -40px;
+    margin-left: 20px;
+}
+div.ct2 section .art2{
+    direction: ltr; 
+}
+div.ct2 section .art2 .imgGroup,
+div.ct2 section .art3 .imgGroup{
+    margin-top: 40px;
+}
+div.ct2 section .art3{
+ align-items: center;
+}
+div.ct2 section .btn{
+    right: 0;
+}
+div.ftrWrap .info{
+    direction: rtl;
+    justify-content: space-around;
+}
+div.ftrWrap .info .p1{
+    display: none;
+}
+div.ftrWrap .info .p2{
+    line-height: 40px;
+    direction: ltr;
+}
+
+
+
+
+
+div.navv{display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

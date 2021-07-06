@@ -1,0 +1,180 @@
+div.hdrWrap{}
+div.hdrWrap header{
+    justify-content: space-between;
+}
+div.hdrWrap header h2{
+   display: none;
+}
+div.hdrWrap header nav{
+  
+   display: flex;
+   margin-top: 20px;
+}
+
+div.hdrWrap header nav .fa-bars{
+    display: block;
+}
+div.ftrWrap footer{
+    justify-content: space-around;
+}
+div.ftrWrap footer,
+div.ftrWrap hr{
+   display: none;
+}
+div.ftrWrap .info{
+    width: 100%;
+}
+div.ftrWrap .info .p1{
+   
+}
+div.ftrWrap .info .p2{
+    line-height: 20px;
+}
+div.hdrWrap header nav .fr label{
+    width: 30px; height: 25px;
+    display: block;
+    text-align: center; line-height: 40px;
+    margin-left: 20px;
+}
+
+#nav{display: none;}
+div.navv{display: block;}
+#nav+.navv{
+    background-color: #000;
+    height: 0px; overflow: hidden;
+    transition: all 0.3s;
+    padding: 0;
+    
+}
+body{
+    position: relative;
+}
+#nav:checked+.navv{
+    height: 160px;
+}
+div.navv{
+    position: absolute;
+    top: 120px;
+    right: 0;
+    z-index: 99999;
+    width: 25%;
+
+    
+   
+}
+div.hdrWrap header nav label{
+width: 40px; height: 40px;
+    display: block;
+    text-align: center; line-height: 40px;
+}
+div.navv h2{
+    color: #fff;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+   
+}
+
+div.banner section p{
+    position: absolute;
+    bottom: 100px;
+}
+
+div.ct1{
+    height: 1000px;
+}
+div.ct1 section{
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+div.ct1 section .Bimage{
+     box-shadow: 3px 5px 5px rgba(0,0,0,0.5);
+     background-image: url(../img/sub2_9.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+}
+div.ct1 section .Bimage .image{
+    display: none;
+}
+
+div.ct1 section .texts{
+    background-color: #fff;
+    width: calc(50% - 20px);height: 640px;
+    box-shadow: none;
+}
+div.ct1 section p{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 40px 20px;
+    margin-top: 0;
+}
+div.ct2 section .texts,
+div.ct2 section .image{
+    height: 480px;
+}
+
+div.ct2 section .note{
+    margin-top: 120px;
+    background-image: url(../img/sub2_10.jpg);
+    background-position:  center;
+    background-size: cover;
+    width: 100%; height: 640px;
+    position: relative;
+    box-shadow: 3px 5px 5px rgba(0,0,0,0.5);
+}
+div.ct2 section .cover{
+    height: 640px;
+}
+
+div.ct4 section{
+    justify-content: space-around;
+}
+div.ct4 section iframe{
+    width: calc(55% - 10px);
+}
+div.ct4 section article{
+    width: calc (40% - 10px);
+    margin-left: 20px;
+}
+
+div.ct3 section .mnimage{
+    width: 100%; height: 500px;
+    
+    background-image: url(../img/sub2_3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+div.ct3 section .image{
+    width: calc(16.66% - 10px);
+    height: 100px; background-color: #333;
+    margin-top: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

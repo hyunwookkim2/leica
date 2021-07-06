@@ -1,0 +1,210 @@
+div.banner{
+    width: 100%;
+    height: 760px;
+    background-image: url(../img/sub2_11.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+}
+div.banner section{
+    color: #fff;
+    height: 760px;
+    position: relative;
+    margin-top: 0;
+}
+div.banner section h3{
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: bold;
+    position: absolute;
+    top: 320px;
+}
+div.banner section p{
+    position: absolute;
+    bottom: 50px;
+}
+div.banner section .left{
+    left: 0;
+}
+div.banner section .right{
+    right: 0;
+}
+div.ct1{}
+div.ct1 section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.ct1 section .Bimage{
+    width: 40%; height: 640px;
+    background-color: #ccc;
+    position: relative;
+    box-shadow: 3px 5px 5px rgba(0,0,0,0.5);
+}
+div.ct1 section .Bimage .image{
+    width: 100%; height: 640px;
+    background-image: url(../img/sub2_9.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 40px; left: 20px;
+    box-shadow: 3px 5px 5px rgba(0,0,0,0.5);
+}
+div.ct1 section .texts{
+    background-color: #fff;
+    width: calc(50% - 20px);
+    box-shadow: 3px 5px 5px rgba(0,0,0,0.5);
+}
+div.ct1 section p{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 40px 20px;
+}
+
+div.ct2{}
+div.ct2 header{}
+div.ct2 header h3{}
+div.ct2 section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div.ct2 section .image{
+    width: calc(40% - 20px);
+    height: 400px;
+    background-image: url(../img/sub2_2.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.5);
+}
+div.ct2 section .texts{
+    width: calc(60% - 20px);
+     height: 400px;
+}
+div.ct2 section .texts h4{
+    font-size: 24px;
+}
+div.ct2 section .texts p{
+    margin: 40px 0;
+    font-size: 16px;
+    color: #000;
+}
+
+div.ct2 section .texts h4 span{
+    font-size: 12px; color: #777;
+}
+div.ct2 section .note{
+    margin-top: 40px;
+    background-image: url(../img/sub2_10.jpg);
+    background-position:  center;
+    background-size: cover;
+    width: 100%; height: 480px;
+    position: relative;
+    box-shadow: 3px 5px 5px rgba(0,0,0,0.5);
+}
+div.ct2 section .cover{
+    width: 100%; height: 480px;
+    background-color: #fff;
+    opacity: 50%;
+}
+div.ct2 section .note .texts{
+    width: calc(50% - 20px); height: 400px;
+    position: absolute;
+    left: 20px; top: 0;
+    margin-top: 20px;
+    font-weight: 500;
+}
+div.ct2 section .note .texts h4{}
+div.ct2 section .note .texts p{
+    margin-top: 20px;
+}
+div.ct3{
+    
+}
+div.ct3 section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.ct3 section .mnimage{
+    width: 100%; height: 700px;
+    
+    background-image: url(../img/sub2_3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+div.ct3 section .image{
+    width: calc(16.66% - 20px);
+    height: 120px; background-color: #333;
+    margin-top: 40px;
+    background-position: center;
+    background-size: cover;
+}
+div.ct3 section .i1{background-image: url(../img/sub2_3.jpg);}
+div.ct3 section .i2{background-image: url(../img/sub2_4.jpg);}
+div.ct3 section .i3{background-image: url(../img/sub2_5.jpg);}
+div.ct3 section .i4{background-image: url(../img/sub2_6.jpg);}
+div.ct3 section .i5{background-image: url(../img/sub2_7.jpg);}
+div.ct3 section .i6{background-image: url(../img/sub2_8.jpg);}
+
+div.ct4{}
+div.ct4 section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 160px;
+}
+div.ct4 section article{}
+div.ct4 section article h4{
+    font-size: 48px; line-height: 60px;
+    font-weight: bold;
+}
+div.ct4 section article h5{
+     font-size: 24px; line-height: 30px;
+    font-weight: bold;
+    width: 180px;
+    border-bottom: 2px solid red;
+    
+    padding-bottom: 20px;
+}
+div.ct4 section article p{
+    color: #000;
+    margin-top: 20px;
+}
+div.ct4 section article p span{
+   margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
